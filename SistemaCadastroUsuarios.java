@@ -6,7 +6,7 @@ public class SistemaCadastroUsuarios {
     // Classe interna para representar um Usuário
     static class Usuario {
         String nome;
-        String emails;
+        String email;
         int idade;
 
         public Usuario(String nome, String email, int idade) {
